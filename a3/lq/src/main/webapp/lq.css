@@ -1,0 +1,110 @@
+body{
+	background-color: #232632;
+	color: #ADAFB6;
+        
+}
+
+
+table{
+	color: #f4f4f4;
+	width: 600px;
+}
+
+
+td{
+	width: 35%;
+	padding: 5px;
+}
+
+.tablee{
+	padding-left: 1%;
+}
+
+.td2{
+	color: black;
+	width: 100%;	
+}
+
+.td2 input, textarea, select{
+	background-color: #f4f4f4;	
+	
+}
+
+#radio_but{
+	padding: 0;
+	width:75px;
+}
+
+.myheader{
+	float: bottom;
+	color: #C8C8CA;
+
+}
+
+#sub_but{
+	margin-left:30%;
+	width: 100px;
+}
+
+ #map {
+	height: 200px;
+	visibility: hidden;
+}
+ 
+ 
+.mapbutton{
+	width: 100px;
+	visibility: hidden;
+}
+
+#video_sect{
+	visibility: hidden;
+}
+
+#video_container{
+	position: absolute;
+	width: 320px;
+	top:170px;
+	visibility: hidden;
+}
+
+#video_container2{
+	position: absolute;
+	width: 320px;
+	top:170px;
+}
+
+#selected_nav{
+  color: white;
+}
+
+.container-fluid{
+  background-color: #232632;
+
+}
+.navbar{
+  margin-bottom: 0;
+  border-width: 0;
+
+}
+
+li {
+  border-style: none solid none none; 
+  border-color: #f4f4f4;
+  border-width: 0 1px 0 0 ;
+
+}
+
+#register_button{
+	margin-left:30%;
+	width: 120px;
+	background-color: #00cc00;
+	color: black;
+	border-color:  #00cc00;
+}
+
+.all_users_view_table{
+    border: solid;
+    border-width: 0 0 1px 0;
+    border-color: #f4f4f4;
+}

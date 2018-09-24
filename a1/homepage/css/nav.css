@@ -1,0 +1,35 @@
+	.mynav{
+		position: relative;
+		border-style: none none double none;
+		border-color:#EEE2DF ;
+		color: #EEE2DF;
+	}
+
+	.navlist{
+		list-style-type: none;
+		overflow: hidden;
+		display: inline-block;
+		margin: 2px;
+	    padding: 0;
+	    display: block;
+	}
+
+	.navlist li {
+		display: inline;
+	}
+
+	.navlist li a{
+		text-align: center;
+	    padding:  20px ;
+	    text-decoration: none;
+	    color: #EEE2DF;
+		font: 15px Baskerville , "Palatino Linotype", "Times New Roman", Times, serif;	
+	}
+
+	.navlist li a:hover {
+	    background-color:  #34494e;
+	}
+
+	#active{
+		 background-color: #3d565c;
+	}

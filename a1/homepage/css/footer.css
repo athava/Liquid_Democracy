@@ -1,0 +1,28 @@
+	.footer_table{
+			position: relative;
+			bottom: 0;
+				
+				clear: both;
+				height: 90px;
+				width: 100%;
+				color:white;
+				border-color: #EEE2DF;
+			    border-style: double;
+			    border-width: 4px 0px 0px 0px;
+		}
+
+
+	a.footer_links{
+			color:#EEE2DF;
+	}
+	a.footer_links:hover{
+		color: pink;
+	}
+
+	a.footer_links:visited{
+		color: 	rgb(169,169,169);
+	}
+
+	a.footer_links:active {
+	    color: blue;
+	}

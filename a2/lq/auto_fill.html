@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+	
+	<head>
+		<title>Liquid Democracy</title>
+		<meta charset="UTF-8">
+		<meta name="description" content="LiquidDemocracy register page">
+		<meta name="keywords" content="lq, LiquidDemocracy, register">
+		<meta name="author" content="athanasaki vaggeliw">
+
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+ 		
+ 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  		
+  		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  		<link rel="stylesheet" type="text/css" href="lq.css">
+  		<script src="lq.js"></script>
+  		<script src="face.js"></script>
+
+	</head>
+
+	<body>
+		<div class="container myheader">
+			<div class="page-header"><h1>Liquid Democracy</h1><p>Sign in</p>
+			</div>
+		</div>
+		
+
+		<div class="container">
+			<form class="form-horizontal"  method="post"  >
+				<div class="tablee form-group">
+					<table >
+						<tr>
+						    <td>
+						    	<label class="control-label" for="usrnm">*Username:</label>
+						    </td>  
+						    <td class="td2">
+						    	<input class="form-control" type="text" id="usrnm" name="username"  title="username has to be at least 8 characters" onchange="username_regexp_val()" required>
+						   	</td> 	
+					  	</tr>
+
+					  	<tr>
+						    <td>
+						    	<label class="control-label" for="psw">*Κωδικός χρήστη:</label>
+						    </td>  
+						    <td class="td2">
+						    	<input class="form-control" type="password" id="psw" name="password" pattern="(?=.*[A-Za-z])(?=.*[0-9])(?=.*[$@$!%*#?&]).{8,10}$" title="password has to be from 8 to 10 characters, include 1 characters, 1 number, 1 special char" required>
+						   	</td> 
+					  	</tr>
+
+					  	<tr>
+						    <td>
+					  			<label class="control-label" for="enable_video">fill in username from photo</label>
+								<input type="radio" name="video option" id="enable_video"  >
+							</td> 
+					  	</tr>
+					 </table>
+				</div>
+			</form>
+		</div>
+
+		<div id="video_container" class="container col-lg-5 col-lg-offset-7">
+			<video id='video' width='280' height='210' autoplay></video>
+			<input  class=" btn btn-info " type='button' id="snap" value ='Take Photo'>
+			<canvas id='canvas' width='280' height='210'></canvas>
+			<input class=" btn btn-info " type='button' id="search" value ='find me'>
+			
+			<script>
+				faceRec.init();
+			</script>
+		</div>
+		
+		
+		
+	</body>
+
+</html>
