@@ -1,0 +1,117 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Nov 24, S2017, 9:25:24 PM
+    Author     : lanag
+*/
+
+
+#answer_container {
+
+}
+
+.star {
+    color: red;
+}
+
+.space {
+    margin-top: 5px;
+}
+
+select {
+    width: 187px;
+}
+
+button, #create {
+    width: 185px !important;
+    margin-left: 31px !important;
+    margin-top: 10px !important;
+    margin-bottom: 10px !important;
+}
+
+#signup{
+    margin-top: 20px !important;
+}
+
+.rbut {
+    margin-left: 20px;
+}
+
+#moto {
+    margin-left: 30%;
+}
+
+nav {
+    width: 100%;
+    margin-bottom: 10px !important;
+}
+
+.jumbotron {
+    padding-top: 2.5% !important;
+    text-align: center;
+    margin-bottom: 10px !important;
+    padding-bottom: 2.5px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+#map {
+    width: 100%;
+    height: 315px;
+    visibility: hidden;
+}
+
+#mapbtn {
+    width: 185px;
+    margin-left: 16px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    visibility: hidden;
+}
+
+#video, #upload, #snap {
+    visibility: hidden;
+}
+
+#video {
+    width: 82%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#upload, #snap {
+    margin-bottom: 10px;
+}
+
+#up_photo {
+    visibility: hidden;
+}
+
+#login{
+    margin-top: 20px !important;
+    width: 50% !important;
+    margin-left: 25% !important;
+}
+
+#title h3 {
+    text-align: center;
+}
+
+#myfield {
+    margin-top: 10px;
+}
+
+#photocheck {
+    margin-left: 50%;
+}
+
+#logged_user {
+    color: greenyellow !important;
+}
+
+#logged_user:hover {
+    color: cyan !important;
+}
